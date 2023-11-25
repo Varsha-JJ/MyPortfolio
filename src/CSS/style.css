@@ -4,11 +4,15 @@
 
 .navheight{
     height: 100px;
-    background-color: transparent;
+    background-color: white;
+    z-index: 1;
 
 }
 
-
+.togglecollaspe{
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+}
 
 .rightnavfont{
     color: black!important;
@@ -99,6 +103,15 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.btnhomestyles{
+    border: black 2px solid;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
 .namestyle{
     color: black;
     font-size: 3rem;
@@ -125,3 +138,213 @@
       transform: translateX(-10px);
     }
   }
+
+
+
+/* heading card    */
+
+.headingcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    height: 110px;
+    border-radius: 0px;
+}
+
+.headbody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 2rem;
+}
+
+
+/* project card  */
+
+.projectcardsize{
+    width: 350px;
+    border-radius: 0px;
+}
+
+.projectcardsize:hover{
+   box-shadow:  2px 2px 5px black;
+}
+
+.cardbody{
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.projecttit{
+    color: black;
+    font-size: 1.7rem;
+}
+
+.tech{
+    color :black;
+    font-size: 1rem;
+}
+
+.git{
+    color: black;
+}
+
+.imgsize{
+    height: 190px;
+}
+
+.demo{
+    margin-left: 260px;
+    text-decoration: none;
+}
+
+/* .imgsize:hover{
+    transform: scale(1.1);
+} */
+
+
+/* about card  */
+
+.abtsty{
+    width: 900px;
+}
+
+.imgheight{
+    height: 420px;
+}
+
+@media (max-width : 1041px)
+{
+    .abtsty{
+        width: 300px;
+    }
+    .imgheight{
+        height: 250px;
+    }
+}
+
+.abtpara{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.abtparali{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+}
+
+
+/* contact */
+
+.icons{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width : 400px)
+{
+    .icons{
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+@media (max-width : 900px)
+{
+    .icons{
+        height: 50px!important;
+        width: 50px!important;
+    }
+}
+
+@media (max-width : 990px)
+{
+    .icons{
+        height: 50px!important;
+        width: 50px!important;
+    }
+}
+
+.contactbody{
+    height: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media(max-width : 1200px)
+{
+    .contactbody{
+        height: 170px;
+    }
+}
+
+.contactbody:hover{
+    color: rgb(126, 123, 123);
+}
+
+.contentcard{
+    border: none;
+}
+
+.contactrow{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Education  */
+.cardalignedu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.educard{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.educard:hover{
+    color: rgb(70, 69, 68);
+}
+
+
+
+.navclr{
+    color: rgb(63, 63, 63);
+}
+.navclr:hover{
+    color:rgb(63, 63, 63) ;
+}
+
+
+/* Experience  */
+
+.text{
+    line-height: 0.5rem!important;
+    color: black;
+}
+
+.titles{
+    font-weight: bold;
+}
+
+.expe:hover{
+    background-color: rgb(179, 175, 175);
+}
+
+a{
+    color: black;
+}

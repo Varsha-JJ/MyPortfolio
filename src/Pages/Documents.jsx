@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Heading from '../Componets/Heading';
+import Projectgrid from '../Componets/Projectgrid';
 
 const Documents = () => {
   return (
     <div>
-      <h1>Doc</h1>
+      <Heading heading="Projects"/>
+      <Projectgrid/>
     </div>
   )
 }

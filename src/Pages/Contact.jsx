@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Heading from '../Componets/Heading'
+import Contactgrid from '../Componets/Contactgrid';
+
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <Heading heading="Get In Touch"/>
+      <Contactgrid/>
     </div>
   )
 }

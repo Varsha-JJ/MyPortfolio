@@ -17,7 +17,7 @@ const Homecard = () => {
             </Card.Text>
             <div className='hmebtn'>
                <Link to="contact"> <button className='btnhomestyle'>Contact me</button></Link>
-                <a href={resume} download="resume"><button className='btnhomestyle'>Download Resume</button></a>
+                <a href={resume} download="resume"><button className='btnhomestyles'>Download Resume</button></a>
             </div>
         </Card.Body>
     </Card>

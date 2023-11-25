@@ -9,6 +9,8 @@ import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Document from './Pages/Documents';
 import Header from './Pages/Header';
+import Education from './Pages/Education';
+import Experience from './Pages/Experience';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,9 +19,11 @@ root.render(
       <Routes>
         <Route path='/' element={<Header/>}>
           <Route path='/' element={<App/>}/>
-          <Route path='document' element={<Document/>}/>
+          <Route path='projects' element={<Document/>}/>
           <Route path='about' element={<About/>}/>
           <Route path='contact' element={<Contact/>}/>
+          <Route path='education' element={<Education/>}/>
+          <Route path='experience' element={<Experience/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

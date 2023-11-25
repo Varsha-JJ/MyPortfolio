@@ -15,14 +15,16 @@ const Header = () => {
             <Container>
                 <Nav.Link as={Link} to="/" className='leftnav leftnavfont'>Varsha JJ</Nav.Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Collapse id="responsive-navbar-nav" className='togglecollaspe'>
                 <Nav className="me-auto">
                 </Nav>      
                 <Nav className='rightnav'>
                     <Nav.Link as={Link} to="/" className='rightnavfont'>Home</Nav.Link>
-                    <Nav.Link as={Link} to="document"  className='rightnavfont'>Document</Nav.Link>
-                    <Nav.Link as={Link} to="contact"  className='rightnavfont'>Contact</Nav.Link>
+                    <Nav.Link as={Link} to="education"  className='rightnavfont'>Education</Nav.Link>
+                    <Nav.Link as={Link} to="projects"  className='rightnavfont'>Projects</Nav.Link>
+                    <Nav.Link as={Link} to="experience"  className='rightnavfont'>Experience</Nav.Link>
                     <Nav.Link as={Link} to="about"  className='rightnavfont'>About</Nav.Link>
+                    <Nav.Link as={Link} to="contact"  className='rightnavfont'>Contact</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
