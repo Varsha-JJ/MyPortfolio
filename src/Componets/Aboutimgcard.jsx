@@ -10,7 +10,7 @@ const Aboutimgcard = () => {
       <Card className="bg-dark text-white abtsty">
       <Card.Img src={about} alt="Card image" className='imgheight' />
       <Card.ImgOverlay>
-        <Card.Text className='abtpara mt-5'>
+        <Card.Text className='abtpara mt-5'> 
         Hi all, I am Varsha JJ from Kerala, India. <br/>
         I completed my Masters in Computer Application (MCA) from Amal Jyothi College of Engineering. Additionally,
         I am currently intern as Frontend Developer at Softroniics.

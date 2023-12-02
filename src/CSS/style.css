@@ -219,12 +219,96 @@
 @media (max-width : 1041px)
 {
     .abtsty{
-        width: 300px;
+        width: 650px;
     }
-    .imgheight{
-        height: 250px;
-    }
+   
 }
+
+
+@media (max-width : 809px)
+{
+    .abtsty{
+        width: 550px;
+    }
+    .abtpara{
+        font-size: 1.2rem!important;
+    }
+    .abtparali{
+        font-size: 1rem!important;
+    }
+   
+}
+
+@media (max-width : 640px)
+{
+    .abtsty{
+        width: 450px;
+    }
+    .abtpara{
+        font-size: 1rem!important;
+    }
+    .abtparali{
+        font-size: 0.8rem!important;
+    }
+   
+}
+
+@media (max-width : 500px)
+{
+    .abtsty{
+        width: 350px;
+    }
+    .abtpara{
+        font-size: 1rem!important;
+    }
+    .abtparali{
+        font-size: 0.8rem!important;
+    }
+   
+}
+
+@media (max-width : 400px)
+{
+    .abtsty{
+        width: 250px;
+    }
+    .abtpara{
+        font-size: 0.9rem!important;
+    }
+    .abtparali{
+        font-size: 0.7rem!important;
+    }
+   
+}
+
+@media (max-width : 200px)
+{
+    .abtsty{
+        width: 150px;
+    }
+    .abtpara{
+        font-size: 0.9rem!important;
+    }
+    .abtparali{
+        font-size: 0.7rem!important;
+    }
+   
+}
+
+@media (max-width : 150px)
+{
+    .abtsty{
+        width: 120px;
+    }
+    .abtpara{
+        font-size: 0.4rem!important;
+    }
+    .abtparali{
+        font-size: 0.7rem!important;
+    }
+   
+}
+
 
 .abtpara{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
