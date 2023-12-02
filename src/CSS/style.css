@@ -245,9 +245,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    position: relative
 }
 
-@media (max-width : 400px)
+/* @media (max-width : 400px)
 {
     .icons{
         height: 30px;
@@ -269,8 +270,9 @@
     .icons{
         height: 50px!important;
         width: 50px!important;
+        position: fixed;
     }
-}
+} */
 
 .contactbody{
     height: 90px;
@@ -299,6 +301,40 @@
 .contactrow{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
+}
+
+
+.contacttitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+.icon-box{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.icon-box:hover {
+   box-shadow: -1px 1px 8px 8px rgb(171, 171, 171);;
+  }
+
+
+
+.iconss{
+    color: white;
+}
+
+.alignicons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
 
 /* Education  */
@@ -348,3 +384,31 @@
 a{
     color: black;
 }
+
+
+/* Footer  */
+
+.svgs{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+@media (max-width:1000px){
+    .svgs{
+        position: fixed;
+    }
+}
+
+
+.footercontent{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  

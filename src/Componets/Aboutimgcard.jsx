@@ -11,9 +11,9 @@ const Aboutimgcard = () => {
       <Card.Img src={about} alt="Card image" className='imgheight' />
       <Card.ImgOverlay>
         <Card.Text className='abtpara mt-5'>
-        I am a software developer with a passion for web development. I have a background in computer science and mathematics, 
-        and I have a strong interest in the intersection 
-        of technology and art. I am currently working as a software developer at example org. in San Francisco, CA.
+        Hi all, I am Varsha JJ from Kerala, India. <br/>
+        I completed my Masters in Computer Application (MCA) from Amal Jyothi College of Engineering. Additionally,
+        I am currently intern as Frontend Developer at Softroniics.
         </Card.Text>
         <Card.Text className='abtpara'>Here are a few technologies I've been working with recently:</Card.Text>
         <Card.Text>

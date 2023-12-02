@@ -1,15 +1,23 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 
-const Contactcard = (props) => {
+const Contactcard = () => {
   return (
     <div>
-       <Card className='contentcard'>
-            <Card.Body className='contactbody'>{props.content}</Card.Body>
-        </Card>
+      <Card className='border-0'>
+        <Card.Body className='d-flex justify-content-center border-0'>
+          <Card.Text className='contacttitle'>Feel free to contact</Card.Text>
+        </Card.Body>
+        <Card.Body   className='alignicons border-0'>
+          <a href="https://github.com/Varsha-JJ?tab=repositories"><div className='icon-box'> <FaGithub className='iconss' /></div> </a>
+          <a href="https://www.linkedin.com/in/varsha-jj-051555206/"> <div className='icon-box'><FaLinkedin className='iconss'/></div> </a>
+          <a href="mailto:varshajj2000@gmail.com"><div className='icon-box'><MdEmail className='iconss'/></div></a>  
+        </Card.Body>
+      </Card>
     </div>
   )
 }

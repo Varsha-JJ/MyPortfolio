@@ -12,7 +12,7 @@ const Educationcard = () => {
 
   return (
     <div className='cardalignedu'>
-       <Card className='mt-5 educard'>
+    <Card className='mt-5 educard mb-5'>
         <Card.Header>
             <Nav variant="tabs" defaultActiveKey="#master">
             <Nav.Item>

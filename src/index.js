@@ -11,22 +11,27 @@ import Document from './Pages/Documents';
 import Header from './Pages/Header';
 import Education from './Pages/Education';
 import Experience from './Pages/Experience';
+import ThemeProvider from './Componets/ThemeProvider';
+import Footer from './Pages/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Header/>}>
-          <Route path='/' element={<App/>}/>
-          <Route path='projects' element={<Document/>}/>
-          <Route path='about' element={<About/>}/>
-          <Route path='contact' element={<Contact/>}/>
-          <Route path='education' element={<Education/>}/>
-          <Route path='experience' element={<Experience/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Header/>}>
+            <Route path='/' element={<App/>}/>
+            <Route path='projects' element={<Document/>}/>
+            <Route path='about' element={<About/>}/>
+            <Route path='contact' element={<Contact/>}/>
+            <Route path='education' element={<Education/>}/>
+            <Route path='experience' element={<Experience/>}/>
+            <Route path='footer' element={<Footer/>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   </React.StrictMode>
 );
 

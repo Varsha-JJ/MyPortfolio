@@ -1,13 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Badge from 'react-bootstrap/Badge';
 import { FaGithub } from "react-icons/fa";
-import {  Link } from "react-router-dom";
+
 
 const Projectcard = (props) => {
   return (
     <div>
-       <Card className='projectcardsize'>
+       <Card className='projectcardsize mb-5'>
         <Card.Img variant="top" src={props.image} className='imgsize' />
         <Card.Body className='cardbody'>
           <Card.Title className='projecttit'>{props.title}</Card.Title>

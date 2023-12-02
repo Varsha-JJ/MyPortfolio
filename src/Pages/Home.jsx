@@ -1,5 +1,7 @@
 import React from 'react'
-import Homegrid from '../Componets/Homegrid'
+import Homegrid from '../Componets/Homegrid';
+import Foot from './Foot';
+
 
 const Home = () => {
   return (

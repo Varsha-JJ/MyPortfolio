@@ -12,8 +12,9 @@ const Homecard = () => {
             <Card.Title className='namestyle'>I’m Varsha JJ <span className='smiley'>&#128075;</span></Card.Title>
             <Card.Subtitle className="mt-2 desstyle">I'm a Frontend Developer</Card.Subtitle>
             <Card.Text className='mt-4'>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            I am a dedicated web app developer who loves using the latest web technologies to create websites
+             that are visually 
+            appealing, provide an excellent user experience, and work seamlessly.
             </Card.Text>
             <div className='hmebtn'>
                <Link to="contact"> <button className='btnhomestyle'>Contact me</button></Link>
