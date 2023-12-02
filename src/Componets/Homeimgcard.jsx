@@ -8,7 +8,7 @@ const Homeimgcard = () => {
     <div>
        <Card className='homecard'>
         <Card.Body className='homecardbody'>
-            <img src={image} alt="" width="600px" height="500px" />
+            <img src={image} alt="" className='imghome'  />
         </Card.Body>
     </Card>
     </div>

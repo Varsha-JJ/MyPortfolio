@@ -79,6 +79,7 @@
 @media (max-width : 200px) {
     .homecard{
         width: 10px;
+        z-index: 1;
     }   
 }
 
@@ -89,6 +90,51 @@
     line-height: 2rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.imghome{
+    width: 600px;
+    height: 500px;
+}
+
+@media (max-width:1200px)
+{
+    .imghome{
+        width: 500px;
+    } 
+}
+
+@media (max-width:900px)
+{
+    .imghome{
+        width: 400px;
+    } 
+}
+
+@media (max-width:500px)
+{
+    .imghome{
+        width: 300px;
+    } 
+}
+
+@media (max-width:300px)
+{
+    .imghome{
+        width: 200px;
+    } 
+}
+
+@media (max-width:200px)
+{
+    .imghome{
+        width: 100px;
+        
+    } 
+}
+
+
+
+
 
 .hmebtn{
     display: flex;
