@@ -7,6 +7,7 @@ import img from '../Images/kid.png';
 import img1 from '../Images/project1.png';
 import img2 from '../Images/recipe.png';
 import img3 from '../Images/movie.png';
+import img4 from '../Images/weather.png';
 
 
 const Projectgrid = () => {
@@ -28,6 +29,9 @@ const Projectgrid = () => {
         </Col>
         <Col md="auto">
             <Projectcard image={img3} title="Movie Search" description="Users can search for specific movies and access details such as cast, release dates, genres." tech="React" iconlink="https://github.com/Varsha-JJ/Movie_Search" demo="Demo" demolink="https://movie-search-eight-vert.vercel.app/"/>
+        </Col>
+        <Col md="auto">
+            <Projectcard image={img4} title="Weather Forecasting" description="Accurate weather forecasts for any city with our user-friendly website, providing real-time updates to keep you prepared and informed." tech="React" iconlink="https://github.com/Varsha-JJ/Weather-Forecasting" demo="Demo" demolink="https://weatherforecastingclimate.vercel.app/"/>
         </Col>
       </Row>
     </Container>
